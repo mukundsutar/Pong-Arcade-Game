@@ -1,0 +1,14 @@
+body {
+    /* text-align: center; */
+    background: linear-gradient(to right, #C33764, #1D2671);;
+}
+
+#board {
+    background-color: black;
+    border-top: 5px solid #C33764;
+    border-bottom: 5px solid #1D2671;
+
+    border-image: linear-gradient(#C33764, #1D2671) 30;
+    border-width: 5px;
+    border-style: solid;
+}
