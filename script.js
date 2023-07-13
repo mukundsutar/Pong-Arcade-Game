@@ -105,11 +105,11 @@ function update() {
      //game over
      if (ball.x < 0) {
         player2Score++;
-        resetGame(2);
+        resetGame(3);
     }
     else if (ball.x + ballWidth > boardWidth) {
         player1Score++;
-        resetGame(-2);
+        resetGame(-3);
     }
 
 
