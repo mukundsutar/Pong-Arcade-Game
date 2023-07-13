@@ -35,8 +35,8 @@ let ball = {
     y: boardHeight / 2,
     width: ballWidth,
     height: ballHeight,
-    velocityX: 2,
-    velocityY: 4
+    velocityX: 3,
+    velocityY: 6
 }
 
 let player1Score = 0;
@@ -162,6 +162,6 @@ function resetGame(direction) {
         width: ballWidth,
         height: ballHeight,
         velocityX : direction,
-        velocityY : 4
+        velocityY : 6
     }
 }
