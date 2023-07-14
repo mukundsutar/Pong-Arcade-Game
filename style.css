@@ -1,10 +1,10 @@
 body {
     /* text-align: center; */
-    background: linear-gradient(to right, #C33764, #1D2671);;
+    background: linear-gradient(to right, #C33764, #1D2671);
 }
 
 #board {
-    background-color: black;
+    background-color: #1A1A1A;
     border-top: 5px solid #C33764;
     border-bottom: 5px solid #1D2671;
 
